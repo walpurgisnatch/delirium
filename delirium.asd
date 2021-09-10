@@ -4,6 +4,8 @@
   :license "MIT"
   :depends-on ()
   :components ((:module "src"
-                :components
-                ((:file "delirium"))))
+                :serial t
+                :components                    
+                ((:file "macroworks")
+                 (:file "delirium")))))
   :description "")
